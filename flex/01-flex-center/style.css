@@ -1,10 +1,10 @@
 .container {
-  display: flex;
+  display: flex;/*change #1*/
   background: dodgerblue;
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
-  justify-content: center;
+  justify-content: center;/*change #2*/
 }
 
 .box {
@@ -14,5 +14,5 @@
   border: 6px solid maroon;
   width: 80px;
   height: 80px;
-  align-self: center;
+  align-self: center;/*change #3*/
 }
