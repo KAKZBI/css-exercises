@@ -2,6 +2,7 @@
 
 html, body {
   height: 100%;
+ 
 }
 
 body {
@@ -9,6 +10,7 @@ body {
   margin: 0;
   background: #aaa;
   color: #333;
+   text-align:left;
   /* I'll give you this one for free lol */
   display: flex;
   align-items: center;
@@ -16,6 +18,10 @@ body {
 }
 
 .modal {
+  display:flex;
+ 
+  padding: 10px;
+  
   background: white;
   width: 480px;
   border-radius: 10px;
@@ -23,6 +29,8 @@ body {
 }
 
 .icon {
+  flex:0 0 auto;
+  
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
@@ -63,4 +71,27 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.texto{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 10px;
+  
+}
+.top
+{
+  display:flex;
+  justify-content: space-between;
+  flex:1;
+  margin-bottom: 10px;
+}
+.header{
+  font-weight: 800;
+  font-size:18px
+}
+.text{
+
+  margin-bottom: 10px;
 }
