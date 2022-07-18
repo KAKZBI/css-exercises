@@ -5,6 +5,9 @@ body {
 img {
   width: 100px;
   height: 100px;
+margin-left:40px;/*Did this out of frustration, did'nt 
+find a better way to center the images*/
+
 }
 
 .title {
@@ -17,10 +20,15 @@ img {
   display: flex;
   gap :52px;
   justify-content:center;
+  
 }
 .image{
-  flex-flow: column wrap;
+  flex-direction: column ;
+  flex-wrap: wrap;
   width: 200px;
+  justify-content:center;
+  align-items: center;
+ 
 }
 .text{
   text-align:center
